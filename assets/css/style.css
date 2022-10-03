@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
 }
-
+/*class: the background colour of the page is grey*/
 body {
   background-color: #d9dcd6;
 }
-
+/*class: the background colour is blue, the text is white,font change and padding added for the border around the context by 20px*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,16 +15,16 @@ body {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/*class: header to take up as much width as necessary at a font size of 48px*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* this creates the seo header to appear in a light grey*/
 .header h1 .seo {
   color: #d9dcd6;
 }
-
+/* this creates a block element within the header, right away from the margin in a padding while floating which allows it to stay in line with header and remain flow of the rest of page*/
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -32,7 +32,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
+/* no style type in the list which removes bullet points*/
 .header nav ul {
   list-style-type: none;
 }
@@ -50,7 +50,7 @@ a {
 p {
   font-size: 16px;
 }
-
+/*class: main picture height and width sits as the background of the page behind other elements in the centre*/
 .hero {
   height: 800px;
   width: 100%;
@@ -59,23 +59,23 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/*class: the image is moved in the search engine optimization to the left, margin of 25px pushed from the right*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/*class: this moves the image in the online reputation management section to the right with a margin of 25px (left)*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
+/*class: the content displayed should take up enough space as needed in the box, margin to the left is 20px with a width of 75% of the page*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+/*class: the content is displayed on the right with a padding of 20px surrounding the content,the margin is 20px from the right and items are moved below the floating elements and content flots to the right. the width to take up 20% and height is 100%*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -86,12 +86,12 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
+/*class: this is all white text and margin of 32px*/
 .benefit-lead, .benefit-brand, .benefit-cost  {
   margin-bottom: 32px;
   color: #ffffff;
 }
-
+/*class: the headers have a margin of 10px from bottom and the text is aligned in the centre*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
