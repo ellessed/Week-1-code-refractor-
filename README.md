@@ -1,2 +1,1 @@
-# Week-1-code-refractor-
-Hello world 
+#Code refactor using HTML GIT CSS - HoriSEOn
